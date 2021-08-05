@@ -1,3 +1,7 @@
+body {
+  background-color: #222222;
+}
+
 body nav img {
   margin-top: -40px;
   margin-bottom: -40px;
@@ -5,6 +9,33 @@ body nav img {
 }
 
 body img {
-  background-size: cover;
+  width: 3080px;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container div {
+  background-color: white;
+  font-size: 18px;
+  margin: 15px;
+  padding: 10px;
+  width: 280px;
+}
+
+body .container div h1 {
+  text-align: center;
+  color: #00518B;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+body .container div p {
+  text-align: justify;
 }
 /*# sourceMappingURL=estilos.css.map */
