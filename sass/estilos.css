@@ -2,6 +2,48 @@ body {
   background-color: #222222;
 }
 
+body .carousel-inner h2 {
+  text-align: left;
+}
+
+body .carousel-inner p {
+  text-align: justify;
+  margin-right: 25%;
+  font-size: 16wv;
+}
+
+body .full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px;
+}
+
+body .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  justify-items: center;
+}
+
+body .row .col {
+  border: white;
+  padding: 5px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+body .row .col h3 {
+  text-align: center;
+  color: #00518B;
+  margin: 20px;
+}
+
 body nav img {
   margin-top: -40px;
   margin-bottom: -40px;
