@@ -2,21 +2,21 @@ body {
   background-color: #222222;
 }
 
-#columnas {
+body #columnas {
   margin: 20px;
 }
 
-.carousel-inner h2 {
+body .carousel-inner h2 {
   text-align: left;
 }
 
-.carousel-inner p {
+body .carousel-inner p {
   text-align: justify;
   margin-right: 25%;
   font-size: 2vw;
 }
 
-.full {
+body .full {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,11 +25,11 @@ body {
   margin: 20px;
 }
 
-.full #accordionExample {
+body .full #accordionExample {
   width: 100%;
 }
 
-.row {
+body .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +38,22 @@ body {
   justify-items: center;
 }
 
-.row .col {
+body .row img {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+body .row p {
+  margin: 20px;
+  text-align: justify;
+}
+
+body .row button {
+  margin-left: 20px;
+}
+
+body .row .col {
   border: white;
   padding: 5px;
   margin: 20px;
@@ -46,23 +61,23 @@ body {
   border-radius: 5px;
 }
 
-.row .col h3 {
+body .row .col h3 {
   text-align: center;
   color: #00518B;
   margin: 20px;
 }
 
-nav img {
+body nav img {
   margin-top: -40px;
   margin-bottom: -40px;
   width: 200px;
 }
 
-img {
+body img {
   width: 3080px;
 }
 
-.container {
+body .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,7 +85,7 @@ img {
       flex-wrap: wrap;
 }
 
-.container div {
+body .container div {
   background-color: white;
   font-size: 18px;
   margin: 15px;
@@ -78,14 +93,14 @@ img {
   width: 280px;
 }
 
-.container div h1 {
+body .container div h1 {
   text-align: center;
   color: #00518B;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
 
-.container div p {
+body .container div p {
   text-align: justify;
 }
 /*# sourceMappingURL=estilos.css.map */
