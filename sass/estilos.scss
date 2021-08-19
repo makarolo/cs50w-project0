@@ -1,8 +1,21 @@
-
+$color-primario: #00518B;
 body{
     background-color: rgb(34, 34, 34);
     #columnas{
         margin: 20px;
+    .col-xs{
+        border: white;
+            padding: 5px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            width: 50%;
+        }
+        @media (max-width: 768px) {
+            .col-sm {
+              width: 100%;
+            }
+        }
     }
     .carousel-inner{
         h2{
@@ -36,12 +49,10 @@ body{
         }
         p{
             margin: 20px;
-            text-align: justify;
+            text-align: justify; 
         }
         button{
             margin-left: 20px;
-            
-            
         }
         .col{
             border: white;
@@ -51,7 +62,7 @@ body{
             border-radius: 5px;
             h3{
                 text-align: center;
-                color: #00518B;
+                color: $color-primario;
                 margin: 20px;
             }
         }
@@ -79,7 +90,7 @@ body{
             width: 280px;
             h1{
                 text-align: center;
-                color: #00518B;
+                color: $color-primario;
                 text-decoration-line: underline;
             }
             p{

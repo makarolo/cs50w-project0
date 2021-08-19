@@ -6,6 +6,21 @@ body #columnas {
   margin: 20px;
 }
 
+body #columnas .col-xs {
+  border: white;
+  padding: 5px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  body #columnas .col-sm {
+    width: 100%;
+  }
+}
+
 body .carousel-inner h2 {
   text-align: left;
 }
