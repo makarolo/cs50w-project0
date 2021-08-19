@@ -15,6 +15,12 @@ body #columnas .col-xs {
   width: 50%;
 }
 
+body #columnas .col-xs h3 {
+  text-align: center;
+  color: #00518B;
+  margin: 5px;
+}
+
 @media (max-width: 768px) {
   body #columnas .col-sm {
     width: 100%;
@@ -82,6 +88,24 @@ body .row .col h3 {
   margin: 20px;
 }
 
+body .card {
+  width: 100%;
+}
+
+body .card h3 {
+  text-align: center;
+  color: #00518B;
+  margin: 5px;
+}
+
+body .card h5 {
+  text-align: center;
+}
+
+body .card p {
+  text-align: justify;
+}
+
 body nav img {
   margin-top: -40px;
   margin-bottom: -40px;
@@ -98,6 +122,9 @@ body .container {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .container div {
